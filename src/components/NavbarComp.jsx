@@ -7,7 +7,9 @@ const NavbarComp = ({ setCategory }) => {
     <>
       <div className="nav">
         <div className="icon">
-          <HamburgerComp setCategory={setCategory} />
+          <div className="search">
+            <HamburgerComp setCategory={setCategory} />
+          </div>
         </div>
         <img
           style={{ cursor: "pointer" }}

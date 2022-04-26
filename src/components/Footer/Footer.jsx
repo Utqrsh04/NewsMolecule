@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <span className="name">
-        News Website made by{" "}
-        <a href="https://www.linkedin.com/in" target="__blank">
+        Made With ❤ by{" "}
+        <a className="myName" href="https://www.linkedin.com/in" target="__blank">
           Ayurish
         </a>
       </span>

@@ -6,6 +6,12 @@
   /* justify-content: center; */
 }
 
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .icon {
   flex: 0.49;
 }

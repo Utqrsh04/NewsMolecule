@@ -72,14 +72,14 @@ const Horoscope = () => {
               sx={{ m: 4, minWidth: 120, maxWidth: 200 }}
             >
               <InputLabel id="demo-simple-select-standard-label">
-                Age
+                Sign
               </InputLabel>
               <Select
                 labelId="demo-simple-select-standard-label"
                 id="demo-simple-select-standard"
                 value={sign}
                 onChange={(e) => setSign(e.target.value)}
-                label="Age"
+                label="Sign"
               >
                 {signs.map((sign) => (
                   <MenuItem value={sign}> {sign}</MenuItem>
@@ -98,10 +98,18 @@ const Horoscope = () => {
             <div className="horoscope-card-content">
               <span className="horoscope-sign">{sign.toLocaleUpperCase()}</span>
               <p className="card-text">{horoscopeData.description}</p>
-              <h3>Color : {horoscopeData.color}</h3>
-              <h3>compatibility : {horoscopeData.compatibility}</h3>
-              <h3>Mood : {horoscopeData.mood}</h3>
-              <h3>Lucky Number : {horoscopeData.lucky_number}</h3>
+              <h3>
+                Color : <span>{horoscopeData.color}</span>
+              </h3>
+              <h3>
+                Compatibility : <span>{horoscopeData.compatibility}</span>
+              </h3>
+              <h3>
+                Mood : <span>{horoscopeData.mood}</span>
+              </h3>
+              <h3>
+                Lucky Number : <span>{horoscopeData.lucky_number}</span>
+              </h3>
             </div>
             <div className="card-link"></div>
           </div>

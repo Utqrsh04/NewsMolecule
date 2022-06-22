@@ -67,7 +67,7 @@ function App() {
       <div className="header-comp">
         <h1 className="header-title">
           <a href="/" className="blogNews">
-            Blog News{" "}
+            BloGews{" "}
           </a>{" "}
           : One place for all your daily news
         </h1>

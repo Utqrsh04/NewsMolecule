@@ -1,4 +1,4 @@
-import { CircularProgress, TextField } from "@mui/material";
+import { CircularProgress } from "@mui/material";
 import { Box } from "@mui/system";
 import axios from "axios";
 import { useEffect, useRef, useState } from "react";
@@ -67,7 +67,7 @@ function App() {
       <div className="header-comp">
         <h1 className="header-title">
           <a href="/" className="blogNews">
-            BloGews{" "}
+            News Molecule{" "}
           </a>{" "}
           : One place for all your daily news
         </h1>
